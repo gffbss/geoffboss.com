@@ -1,4 +1,8 @@
 /* Style for Geoff Boss*/
+.container {
+    margin-top: 50px;
+}
+
 #title{
     font-family: 'Open Sans', sans-serif;
 }
