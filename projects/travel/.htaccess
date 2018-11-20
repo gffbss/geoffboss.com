@@ -1,0 +1,6 @@
+
+AuthType Basic
+AuthName "VIP Family Restricted Area"
+AuthUserFile /home/169863/.htpasswd
+AuthGroupFile /home/169863/.htgroup
+Require group Family
