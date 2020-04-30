@@ -1,14 +1,13 @@
 /* Style for Geoff Boss*/
+body {
+    font-family: 'Manrope', sans-serif !important;
+}
+
 .container {
     margin-top: 50px;
 }
 
-#title{
-    font-family: 'Open Sans', sans-serif;
-}
-
-#tag-line{
-    font-family: 'Open Sans', sans-serif;
+#tag-line{    
     text-align: center;
 
 }
@@ -24,71 +23,16 @@ img{
 
 .row{
 	padding-top: 25px;
-    height:260px;
 }
 
-#second-row{    
+#second-row{
 	padding-top: 35px;
 }
 
-/* hover effects */
-
-/*.container {
-    position: relative;
-    box-shadow: 7px 7px 0 rgba(0,0,0,0.025), 2px 2px 5px 2px rgba(0,0,0,0.25) inset;
-    margin: 30px auto;
-    border: 10px solid #fff;
-    font-size: 1em;
-    overflow: hidden;
-    width: 300px;
-}*/
-
 .container img {
     display: block;
-/*    width: 100%;
-*/    margin: 0 auto;
+/*    width: 100%; */
+    margin: 0 auto; 
     position: relative;
     z-index: -2;
 }
-
-.container a {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.container a span {
-    display: block;
-    background: rgba(42,182,145,0.95);
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    opacity: 100;
-    transition: all .5s ease-out;
-    z-index: -1;
-}
-
-.container a:hover span {
-    height: 100%; 
-    opacity: 100;
-}
-
-.container p {
-    text-align: center;
-    margin: 35px 0;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-}
-
-.container h3 {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 1px;
-}
-
-/* circle hover :) */
-
