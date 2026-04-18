@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="LinkedIn">
+  <circle cx="12" cy="12" r="11" fill="#111"/>
+  <g fill="#fff" transform="translate(12,12) scale(0.86) translate(-12,-12)">
+    <circle cx="8.35" cy="6.85" r="1.2"/>
+    <rect x="7.2" y="9.15" width="2.3" height="8.85" rx="0.55"/>
+    <path d="M11.55 18V9.15h2.15l.05 1.05c.45-.75 1.25-1.2 2.35-1.2 1.85 0 3.05 1.2 3.05 3.15V18h-2.35v-5.1c0-1.05-.55-1.65-1.5-1.65-.95 0-1.55.65-1.55 1.7V18h-2.2z"/>
+  </g>
+</svg>

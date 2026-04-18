@@ -41,22 +41,32 @@
     }
     .icons {
       display: flex;
+      align-items: center;
       justify-content: center;
-      gap: 20px;
+      gap: 22px;
     }
     .icon-link {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      flex-shrink: 0;
     }
     .icon-link img {
       width: 100%;
-      height: auto;
-      transition: transform 0.2s ease, opacity 0.2s ease;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      filter: drop-shadow(0 1px 2px rgba(17, 17, 17, 0.12))
+        drop-shadow(0 2px 6px rgba(17, 17, 17, 0.08));
+      transition: transform 0.2s ease, filter 0.2s ease, opacity 0.2s ease;
     }
     .icon-link:hover img {
-      transform: scale(1.1);
-      opacity: 0.8;
+      transform: scale(1.06);
+      filter: drop-shadow(0 2px 4px rgba(17, 17, 17, 0.16))
+        drop-shadow(0 4px 12px rgba(17, 17, 17, 0.1));
+      opacity: 0.94;
     }    
   </style>
 </head>
@@ -67,16 +77,16 @@
     <h3 id="tag-line">Recruiting | People | Web Apps</h3>
     <div class="icons">
       <a class="icon-link" href="writing/index.html" title="My Writing">
-        <img src="assets/open-iconic/svg/copywriting.svg" alt="My Writing">
+        <img src="assets/images/writing-icon.svg" alt="My Writing">
       </a>
-      <a class="icon-link" href="https://www.linkedin.com/in/geoffrey-boss/" target="_blank" title="LinkedIn">
-        <img src="assets/images/linkedin-dark.png" alt="LinkedIn">
+      <a class="icon-link" href="https://www.linkedin.com/in/geoffrey-boss/" target="_blank" title="LinkedIn" rel="noopener noreferrer">
+        <img src="assets/images/linkedin-icon.svg" alt="LinkedIn">
       </a>
-      <a class="icon-link" href="https://www.github.com/gffbss" target="_blank" title="GitHub">
-        <img src="assets/images/GitHub-Mark.png" alt="GitHub">
+      <a class="icon-link" href="https://www.github.com/gffbss" target="_blank" title="GitHub" rel="noopener noreferrer">
+        <img src="assets/images/github-icon.svg" alt="GitHub">
       </a>
-      <a class="icon-link" href="https://www.twitter.com/gffbss" target="_blank" title="Twitter">
-        <img src="assets/images/twitter-icon-circle-logo.png" alt="Twitter">
+      <a class="icon-link" href="https://x.com/gffbss" target="_blank" title="X" rel="noopener noreferrer">
+        <img src="assets/images/x-logo.svg" alt="X">
       </a>
     </div>
   </div>
